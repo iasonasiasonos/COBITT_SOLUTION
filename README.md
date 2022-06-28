@@ -1,4 +1,4 @@
-# COBITT_SOLUTION
+# COBITT
 
 <h1>Prerequisites</h1>
 

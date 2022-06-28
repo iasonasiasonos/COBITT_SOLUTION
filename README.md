@@ -1,6 +1,6 @@
 # COBITT_SOLUTION
 
-Prerequisites
+<h1>Prerequisites</h1>
 
 To keep things simple all components will be run using Docker. Docker is a container technology which allows to different components isolated into their respective environments.
 
@@ -11,12 +11,16 @@ Docker Compose is a tool for defining and running multi-container Docker applica
 
 You can check your current Docker and Docker Compose versions using the following commands:
 
+<pre>
 docker-compose -v
 docker version
+</pre>
 
-Start Up
+<h1>Start Up</h1>
 Before you start you should ensure that you have obtained or built the necessary Docker images locally. Please clone the repository and create the necessary images by running the commands as shown:
 
+<pre>
 git clone https://github.com/iasonasiasonos/COBITT_SOLUTION.git
 cd COBITT_SOLUTION
 docker compose up
+</pre>

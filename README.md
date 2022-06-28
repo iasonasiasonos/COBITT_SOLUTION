@@ -3,13 +3,13 @@
 <h1>Prerequisites</h1>
 
 <p>
-To keep things simple all components will be run using Docker. Docker is a container technology which allows to different components isolated into their respective environments.
+To keep things simple all components will be run using <a href="https://www.docker.com" rel="nofollow">Docker</a>. Docker is a container technology which allows to different components isolated into their respective environments.
 </p>
 <p>
-To install Docker on Windows follow the instructions here
-To install Docker on Mac follow the instructions here
-To install Docker on Linux follow the instructions here
-Docker Compose is a tool for defining and running multi-container Docker applications. A YAML file is used configure the required services for the application. This means all container services can be brought up in a single command. Docker Compose is installed by default as part of Docker for Windows and Docker for Mac, however Linux users will need to follow the instructions found here
+To install Docker on Windows follow the instructions <a href="https://docs.docker.com/docker-for-windows/" rel="nofollow">here</a>
+To install Docker on Mac follow the instructions <a href="https://docs.docker.com/docker-for-mac/" rel="nofollow">here</a>
+To install Docker on Linux follow the instructions <a href="https://docs.docker.com/install/" rel="nofollow">here</a>
+Docker Compose is a tool for defining and running multi-container Docker applications. A <a href="https://raw.githubusercontent.com/Fiware/tutorials.Entity-Relationships/master/docker-compose.yml" rel="nofollow">YAML file</a> is used configure the required services for the application. This means all container services can be brought up in a single command. Docker Compose is installed by default as part of Docker for Windows and Docker for Mac, however Linux users will need to follow the instructions found <a href="https://docs.docker.com/compose/install/" rel="nofollow">here</a>
 </p>
 <p>
 You can check your current Docker and Docker Compose versions using the following commands:

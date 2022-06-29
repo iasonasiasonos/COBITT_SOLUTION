@@ -33,6 +33,10 @@ docker compose up
 Orion Context Broker Configuration
 </h1>
 
+<p>
+    The Orion Context Broker is an implementation of the Publish/Subscribe Context Broker GE, providing an NGSI interface.
+</p>
+
 <pre>
 orion:
     labels:
@@ -58,6 +62,10 @@ orion:
 <h1>
   Mongo DB Configuration
 </h1>
+
+<p>
+    MongoDB is required to run either in the same host where Orion Context Broker is to be installed or in a different host accessible through the network. 
+</p>
 
 <pre>
 mongo-db:
@@ -85,6 +93,10 @@ mongo-db:
 <h1>
 IoT Agent Configuration
 </h1>
+
+<p>
+    The iot-agent container relies on the precence of the Orion Context Broker and uses a MongoDB database to hold device information such as device URLs and Keys. 
+</p>
 
 <pre>
 iot-agent:
@@ -125,6 +137,10 @@ iot-agent:
   SQL Server DB Configuration
 </h1>
 
+<p>
+    This database is used to hold data for the ordering system of COBITT.
+</p>
+
 <pre>
 sql-server-db:
     container_name: sql-cobit-db
@@ -140,6 +156,10 @@ sql-server-db:
 <h1>
   COBITT Web App Configuration
 </h1>
+
+<p>
+    Provides a user friendly web application to allow users creating IOT Devices using the IOT Agent and Orion Context Broker as well as to communicate with these devices. Additionally it holds an ordering system to keep track the orders if there are succesfull or failed.
+</p>
 
 <pre>
  cobit-webapp:
@@ -177,6 +197,10 @@ sql-server-db:
   MySQL DB Configuration
 </h1>
 
+<p>
+    Database to hold persisting context data.
+</p>
+
 <pre>
 mysql-db:
       restart: always
@@ -198,6 +222,10 @@ mysql-db:
   Cygnus Configuration
 </h1>
 
+<p>
+   Cygnus is a connector in charge of persisting context data sources into other third-party databases and storage systems, creating a historical view of the context. 
+</p>
+    
 <pre>
 cygnus:
       image: fiware/cygnus-ngsi:latest
@@ -225,6 +253,10 @@ cygnus:
 <h1>
   Grafana Configuration
 </h1>
+
+<p>
+    Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored.
+</p>
 
 <pre>
 grafana:

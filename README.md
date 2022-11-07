@@ -19,7 +19,7 @@ docker-compose -v
 docker version
 </pre>
 
-<h1>Start Up</h1>
+<h1>Installation</h1>
 <p>
 Before you start you should ensure that you have obtained or built the necessary Docker images locally. Please clone the repository and create the necessary images by running the commands as shown:
 </p>

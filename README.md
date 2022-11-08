@@ -133,6 +133,10 @@ iot-agent:
       interval: 5s
 </pre>
 
+<p>
+    Find the new IOT Agent for ROS2 <a href="https://github.com/iasonasiasonos/iot_agent_ros2">here</a>
+</p>
+
 <h1>
   SQL Server DB Configuration
 </h1>

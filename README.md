@@ -133,8 +133,12 @@ iot-agent:
       interval: 5s
 </pre>
 
+<h2>
+  IOT Agent - ROS2
+</h2>
+
 <p>
-    Find the new IOT Agent for ROS2 <a href="https://github.com/iasonasiasonos/iot_agent_ros2">here</a>
+    Find the new IOT Agent for ROS2 <a href="https://github.com/iasonasiasonos/iot_agent_ros2">here.</a>
 </p>
 
 <h1>
